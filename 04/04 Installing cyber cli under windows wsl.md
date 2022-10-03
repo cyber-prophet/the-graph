@@ -7,6 +7,7 @@
 ```
 wsl --install
 wsl --set-default-version 1
+wsl --install -d Ubuntu
 ```
 
 ### In console of Ubuntu:
