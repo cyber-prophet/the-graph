@@ -35,6 +35,9 @@ title:: cyber-prophet extra 1: installing mac from 0
 	- `brew install --cask alacritty`
 	- To open the application 'Alacrity' for the first time - click on it's icon with right click and choose the 'open' button
 		-
+- Configurate Alacritty
+	- to use nushell as default shell
+	- to change the size of fonts
 - In Alacritty
 	-
 	-
