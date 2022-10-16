@@ -1,7 +1,4 @@
-# 04 Installing cyber cli under windows wsl.md
-
 ## Commands from video.
-
 ### In Power Shell of Windows:
 
 ```
@@ -9,7 +6,6 @@ wsl --install
 wsl --set-default-version 1
 wsl --install -d Ubuntu
 ```
-
 ### In console of Ubuntu:
 
 ```
@@ -20,7 +16,6 @@ sudo apt-get install build-essential
 make install CUDA_ENABLED=false LEDGER_ENABLED=false
 export PATH=$PATH:/home/uuser/go/bin # dont forget to change the uuser name to yours accordingly
 ```
-
 ### Testing cyber
 
 ```
