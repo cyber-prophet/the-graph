@@ -38,6 +38,16 @@ title:: cyber-prophet extra 1: installing mac from 0
 - Configurate Alacritty
 	- to use nushell as default shell
 	- to change the size of fonts
-- In Alacritty
-	-
+- In Alacritty in `.alacritty.yml`:
+	- line 26
+		- `window:`
+	- line 81
+		- `startup_mode: Maximized`
+	- line 111
+		- `font:`
+	- line 120
+		- `family: GoMono Nerd Font Mono`
+	- line 159
+		- `size: 18.0`
+		-
 	-
