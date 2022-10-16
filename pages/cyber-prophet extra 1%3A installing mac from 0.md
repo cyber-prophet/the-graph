@@ -2,11 +2,12 @@ title:: cyber-prophet extra 1: installing mac from 0
 
 - Software installation
 	- https://brew.sh/
+	  collapsed:: true
 		- ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 		  ```
 		- ![image.png](../assets/image_1665918154752_0.png)
 		- Check that brew installed with `brew help` command
-	- Go compile
+	- Go compiler
 		- `brew install go`
 	- Git
 		- `brew install git`
@@ -18,6 +19,8 @@ title:: cyber-prophet extra 1: installing mac from 0
 		- `cd gitfolder`
 	- Clonning repository
 		- `git clone https://github.com/cybercongress/go-cyber.git`
+		- `cd go-cyber`
+		- `make install`
 	- Checking if cyber is installed correctly
 		- `cyber version`
 	- So we found that we need to add `~/go/bin` path to $PATH variable
@@ -45,8 +48,6 @@ title:: cyber-prophet extra 1: installing mac from 0
 		- `startup_mode: Maximized`
 	- line 111
 		- `font:`
-	- line 120
-		- `family: GoMono Nerd Font Mono`
 	- line 159
 		- `size: 18.0`
 	- line 436 - To make nushell default shell for Alacritty
@@ -76,5 +77,23 @@ title:: cyber-prophet extra 1: installing mac from 0
 	- check if your $PATH variable looks correctly
 		- `echo $env.PATH`
 		- ![image.png](../assets/image_1665923863696_0.png)
-- Install Starship
+- Install Starship to make our promt look beautiful
+	- ![image.png](../assets/image_1665923942928_0.png)
+	- `brew install starship`
+	- `mkdir ~/.cache/starship`
+	- `starship init nu | save ~/.cache/starship/init.nu`
+- Install NERD font for Starship
+	- `brew tap homebrew/cask-fonts`
+	- `brew install --cask font-go-mono-nerd-font`
+	- In Alacritty in `.alacritty.yml`:
+		- line 120
+			- `family: GoMono Nerd Font Mono`
+- Install pussy
+	- `git clone https://github.com/joinresistance/space-pussy.git`
+	- `cd space-pussy`
+	- `make install`
+	- Check if it works
+		- `pussy version`
+- Install IPFS
+	- `brew install ipfs`
 	-
