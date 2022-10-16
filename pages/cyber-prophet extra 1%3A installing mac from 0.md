@@ -49,5 +49,32 @@ title:: cyber-prophet extra 1: installing mac from 0
 		- `family: GoMono Nerd Font Mono`
 	- line 159
 		- `size: 18.0`
+	- line 436 - To make nushell default shell for Alacritty
+		- ```
+		  shell:
+		   program: /opt/homebrew/bin/nu
+		   args:
+		     - --login
+		  ```
 		-
+- Configuring nu in Alacritty to enable open nushell:
+	- adding go executable folder into $PATH variable
+		- `let-env PATH = ( $env.PATH | append /Users/uuser/go/bin )`
+	- check if cyber works
+		- cyber version
+	- Add this command into config of nu
+		- `config nu`
+		- add into the last line
+		- `let-env PATH = ( $env.PATH | append /Users/uuser/go/bin )`
+	- Modify this command to add Brew folders into $PATH variable to. Beware of the name of your user. In the video it is 'uuser', but in your case it is likely to be diffrent
+		- ```
+		  let-env PATH = ( $env.PATH | append [
+		  /Users/uuser/go/bin  
+		  /opt/homebrew/bin  
+		  /opt/homebrew/sbin] )
+		  ```
+	- check if your $PATH variable looks correctly
+		- `echo $env.PATH`
+		- ![image.png](../assets/image_1665923863696_0.png)
+- Install Starship
 	-
