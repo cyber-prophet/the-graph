@@ -21,5 +21,20 @@ title:: cyber-prophet extra 1: installing mac from 0
 	- Checking if cyber is installed correctly
 		- `cyber version`
 	- So we found that we need to add `~/go/bin` path to $PATH variable
+		- `pwd`
+		- `export PATH=$PATH:/Users/uuser/go/bin`
+			- ```
+			  > cyber version
+			  0.3.2
+			  ```
+- Installing nushell
+	- `brew install nushell`
+	- Launching nu
+		- `nu`
+- Installing Alacritty terminal
+	- `brew install --cask alacritty`
+	- To open the application 'Alacrity' for the first time - click on it's icon with right click and choose the 'open' button
 		-
+- In Alacritty
+	-
 	-
