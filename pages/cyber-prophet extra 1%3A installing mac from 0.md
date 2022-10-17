@@ -2,10 +2,9 @@ title:: cyber-prophet extra 1: installing mac from 0
 
 - Software installation
 	- https://brew.sh/
-	  collapsed:: true
 		- ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 		  ```
-		- ![image.png](../assets/image_1665918154752_0.png)
+		- ![image.png](../assets/image_1665918154752_0.png){:height 507, :width 706}
 		- Check that brew installed with `brew help` command
 	- Go compiler
 		- `brew install go`
