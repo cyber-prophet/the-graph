@@ -4,6 +4,12 @@
  {:block/name "06 video: adding keys to cyber cli",
   :block/created-at 1666010463385,
   :block/updated-at 1666013244439}
+ {:block/name "07 installing cyber and pussy nushel completions",
+  :block/created-at 1666163020508,
+  :block/updated-at 1666163020508}
+ {:block/name "08 installing cy",
+  :block/created-at 1666163055211,
+  :block/updated-at 1666163055211}
  {:block/name "a",
   :block/created-at 1665916105512,
   :block/updated-at 1665916105512}
@@ -42,7 +48,7 @@
   :block/updated-at 1665916105512}
  {:block/name "index page",
   :block/created-at 1666010026912,
-  :block/updated-at 1666010161668}
+  :block/updated-at 1666162946065}
  {:block/name "later",
   :block/created-at 1665916105512,
   :block/updated-at 1665916105512}
@@ -58,6 +64,9 @@
  {:block/name "oct 18th, 2022",
   :block/created-at 1666022424036,
   :block/updated-at 1666022424036}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666162916655,
+  :block/updated-at 1666163055212}
  {:block/name "readme",
   :block/created-at 1665915987321,
   :block/updated-at 1665915987321}
