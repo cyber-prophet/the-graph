@@ -97,3 +97,4 @@ title:: cyber-prophet extra 1: installing mac from 0
 - Install IPFS
 	- `brew install ipfs`
 	-
+-
