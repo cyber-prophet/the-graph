@@ -33,7 +33,7 @@
   :block/updated-at 1665916039363}
  {:block/name "cyber-prophet extra 1: installing mac from 0",
   :block/created-at 1665917862651,
-  :block/updated-at 1668067092792}
+  :block/updated-at 1668087560334}
  {:block/name "doing",
   :block/created-at 1665916105512,
   :block/updated-at 1665916105512}
@@ -56,47 +56,29 @@
   :block/created-at 1668066995462,
   :block/updated-at 1668066995462}
  {:block/name "nov 11th, 2022",
-  :block/created-at 1668100525931,
-  :block/updated-at 1668100525931}
+  :block/created-at 1668101890659,
+  :block/updated-at 1668101890659}
+ {:block/name "nov 12th, 2022",
+  :block/created-at 1668189362917,
+  :block/updated-at 1668189362917}
  {:block/name "nov 13th, 2022",
-  :block/created-at 1668352433594,
-  :block/updated-at 1668352433594}
- {:block/name "nov 16th, 2022",
-  :block/created-at 1668531908291,
-  :block/updated-at 1668531908291}
+  :block/created-at 1668273316555,
+  :block/updated-at 1668273316555}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668362620890,
+  :block/updated-at 1668362620890}
+ {:block/name "nov 15th, 2022",
+  :block/created-at 1668451325949,
+  :block/updated-at 1668451325949}
  {:block/name "now",
   :block/created-at 1665916105512,
   :block/updated-at 1665916105512}
- {:block/name "oct 16th, 2022",
-  :block/created-at 1665915987270,
-  :block/updated-at 1665915987270}
  {:block/name "oct 17th, 2022",
   :block/created-at 1666009966961,
   :block/updated-at 1666010463385}
- {:block/name "oct 18th, 2022",
-  :block/created-at 1666022424036,
-  :block/updated-at 1666022424036}
  {:block/name "oct 19th, 2022",
   :block/created-at 1666162916655,
   :block/updated-at 1666163055212}
- {:block/name "oct 20th, 2022",
-  :block/created-at 1666195223159,
-  :block/updated-at 1666195223159}
- {:block/name "oct 21st, 2022",
-  :block/created-at 1666281623287,
-  :block/updated-at 1666281623287}
- {:block/name "oct 22nd, 2022",
-  :block/created-at 1666368023882,
-  :block/updated-at 1666368023882}
- {:block/name "oct 23rd, 2022",
-  :block/created-at 1666454427655,
-  :block/updated-at 1666454427655}
- {:block/name "oct 24th, 2022",
-  :block/created-at 1666548378370,
-  :block/updated-at 1666548378370}
- {:block/name "oct 25th, 2022",
-  :block/created-at 1666627257338,
-  :block/updated-at 1666627257338}
  {:block/name "readme",
   :block/created-at 1665915987321,
   :block/updated-at 1665915987321}
