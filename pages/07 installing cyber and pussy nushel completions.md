@@ -1,0 +1,11 @@
+- `git clone https://github.com/cyber-prophet/cosmos-sdk-CLI-completions-for-nushell`
+- In the folder `out` find the needed executable folder and there find completions file (like `pussy_nu_completions.nu`)
+-
+- `overlay use /path/to/pussy_nu_completions.nu as pussy`
+- try if nu gives you completions after typing `pussy` and hitting TAB
+-
+- if it works, add the previous command into the end of nu config:
+	- `config nu`
+	-
+	- `overlay hide pussy`
+-
