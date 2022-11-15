@@ -1,11 +1,15 @@
 - `git clone https://github.com/cyber-prophet/cosmos-sdk-CLI-completions-for-nushell`
 - In the folder `out` find the needed executable folder and there find completions file (like `pussy_nu_completions.nu`)
--
-- `overlay use /path/to/pussy_nu_completions.nu as pussy`
+- enter the command
+	- `overlay use /path/to/pussy_nu_completions.nu as pussy`
 - try if nu gives you completions after typing `pussy` and hitting TAB
 -
 - if it works, add the previous command into the end of nu config:
 	- `config nu`
-	-
-	- `overlay hide pussy`
+		- `overlay use /path/to/pussy_nu_completions.nu as pussy`
+		- `overlay hide pussy`
 -
+- I use `overlay hide pussy` in the config, as if there are several completions installed in nushell, their results can be a mess.
+	- ![image.png](../assets/image_1668532987009_0.png)
+- When I need the specific completion I use command:
+	- `overlay use pussy`
