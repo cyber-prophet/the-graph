@@ -1,4 +1,69 @@
+-
 - check balance
 - find a validator
 - stake
 - investmint
+- commands
+	- `config nu`
+	- `overlay use pussy`
+	- `pussy keys list `
+	- `let key1 = (pussy keys list --output json | from json )`
+	- `$key1`
+	- `let key1 = (pussy keys list --output json | from json | get address.0)`
+	- `$key1`
+	- `pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 `
+	- `pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 --output json`
+	- `let balance1 = (pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 --output json)`
+	- `let balance1 = (pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 --output json | from json)`
+	- `$balance1`
+	- `$balance1.balances`
+	- `$balance1.balances.amount.0`
+	- `let amount1 = ($balance1.balances.amount.0)`
+	- `pussy query staking validators --node https://rpc.space-pussy.cybernode.ai:443 `
+	- `let validators1 = (pussy query staking validators --node https://rpc.space-pussy.cybernode.ai:443 -o json | from json)`
+	- `$validators1`
+	- `$validators1.validators`
+	- `$validators1.validators | flatten`
+	- `$validators1.validators | flatten | select operator_address moniker`
+	- `$validators1.validators | flatten | select operator_address moniker | where moniker == "Joy prophet"`
+	- `$validators1.validators | flatten | select operator_address moniker | where moniker == "Joy prophet" | get operator_address`
+	- `$validators1.validators | flatten | select operator_address moniker | where moniker == "Joy prophet" | get operator_address.0`
+	- `let validator1 = ($validators1.validators | flatten | select operator_address moniker | where moniker == "Joy prophet" | get operator_address.0)`
+	- `pussy tx staking delegate -h`
+	- `$amount1`
+	- `$amount1 | into int`
+	- `$amount1 | into int | $in * 0.98`
+	- `$amount1 | into int | $in * 0.98 | into string`
+	- `$amount1 | into int | $in * 0.98 | into string | $in + 'pussy'`
+	- `let amount2 = ($amount1 | into int | $in * 0.98 | into string | $in + 'pussy')`
+	- `pussy tx staking delegate -h`
+	- `pussy tx staking delegate $validator1 $amount2 --from video-key `
+	- `pussy tx staking delegate $validator1 $amount2 --from video-key --node https://rpc.space-pussy.cybernode.ai:443`
+	- `pussy tx staking delegate $validator1 $amount2 --from video-key --node https://rpc.space-pussy.cybernode.ai:443 --chain-id space-pussy`
+	- `pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 --output json`
+	- `let balance2 = (pussy query bank balances $key1 --node https://rpc.space-pussy.cybernode.ai:443 --output json | from json)`
+	- `$balance2`
+	- `$balance2.balances`
+	- `$balance2.balances | where denom == 'liquidpussy'`
+	- `$balance2.balances | where denom == 'liquidpussy' | get amount.0`
+	- `let balance_liquid = ($balance2.balances | where denom == 'liquidpussy' | get amount.0)`
+	- `$balance_liquid`
+	- `pussy tx resources investmint -h`
+	- `24*60*60`
+	- `(24*60*60)`
+	- `(24 * 60 * 60)`
+	- `24 * 60 * 60`
+	- `24 * 60 * 60 * 30`
+	- `pussy tx resources investmint -h`
+	- `pussy tx resources investmint $"($balance_liquid * 0.8)liquidpussy" millivolt 2592000 --from video-key `
+	- `pussy tx resources investmint $"(($balance_liquid | into int) * 0.8)liquidpussy" millivolt 2592000 --from video-key `
+	- `pussy tx resources investmint $"(($balance_liquid | into int) * 0.8)liquidpussy" millivolt 2592000 --from video-key --node https://rpc.space-pussy.cybernode.ai:443 --chain-id space-pussy`
+	- `pussy tx resources investmint $"(($balance_liquid | into int) * 0.2)liquidpussy" milliampere 2592000 --from video-key --node https://rpc.space-pussy.cybernode.ai:443 --chain-id space-pussy`
+	- `config nu`
+	- `ls .config/`
+	- `ls`
+	- `ls -a`
+	- `config nu`
+	- `cd '/Users/uuser/Library/Application Support/nushell/'`
+	- `^open .`
+	- `
