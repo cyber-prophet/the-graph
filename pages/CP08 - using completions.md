@@ -1,0 +1,4 @@
+- check balance
+- find a validator
+- stake
+- investmint

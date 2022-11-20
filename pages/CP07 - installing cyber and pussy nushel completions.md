@@ -1,5 +1,5 @@
 - `git clone https://github.com/cyber-prophet/cosmos-sdk-CLI-completions-for-nushell`
-- In the folder `out` find the needed executable folder and there find completions file (like `pussy_nu_completions.nu`)
+- In the folder `out` find the needed folder and there find completions file (like `pussy_nu_completions.nu`)
 - enter the command
 	- `overlay use /path/to/pussy_nu_completions.nu as pussy`
 - try if nu gives you completions after typing `pussy` and hitting TAB
@@ -13,3 +13,4 @@
 	- ![image.png](../assets/image_1668532987009_0.png)
 - When I need the specific completion I use command:
 	- `overlay use pussy`
+-
