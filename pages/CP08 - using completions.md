@@ -81,9 +81,7 @@
 	- ```
 	  pussy tx staking delegate -h
 	  ```
-	- ```
-	  $amount1
-	  ```
+	- $amount1
 	- ```
 	  $amount1 | into int
 	  ```
