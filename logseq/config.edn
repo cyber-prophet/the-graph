@@ -22,7 +22,7 @@
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Enable Block timestamp
  :feature/enable-block-timestamps? false
@@ -227,6 +227,7 @@
 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
+ :feature/enable-timetracking? false
 
  ;; Properties to exclude from having property pages
  ;; E.g.:property-pages/excludelist #{:duration :author}
