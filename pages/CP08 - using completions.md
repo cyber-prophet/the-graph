@@ -168,25 +168,3 @@
 	- ```
 	  pussy tx resources investmint $"(($balance_liquid | into int) * 0.2)liquidpussy" milliampere 2592000 --from video-key --node https://rpc.space-pussy.cybernode.ai:443 --chain-id space-pussy
 	  ```
-	- ```
-	  config nu
-	  ```
-	- ```
-	  ls .config/
-	  ```
-	- ```
-	  ls
-	  ```
-	- ```
-	  ls -a
-	  ```
-	- ```
-	  config nu
-	  ```
-	- ```
-	  cd '/Users/uuser/Library/Application Support/nushell/'
-	  ```
-	- ```
-	  ^open .
-	  ```
-	- ```
