@@ -39,10 +39,13 @@ title:: cyber-prophet extra 1: installing mac from 0
 	- To open the application 'Alacritty' for the first time - click on it's icon with right click and choose the 'open' button
 		-
 - Configurate Alacritty
-	- to use nushell as default shell
-	- to change the size of fonts
-	-
-- In Alacritty in `.alacritty.yml`:
+	- goals
+		- to use nushell as default shell
+		- to change the size of fonts
+- Download `alacritty.yml` from: https://github.com/alacritty/alacritty/releases/latest
+	- move the config file into home folder `mv alacritty.yml ~/.alacritty.yml`
+	- open the yml file in vs code: `code ~/.alacritty.yml`
+- In VS Code in `.alacritty.yml`:
 	- line 26
 		- `window:`
 	- line 81
@@ -51,6 +54,7 @@ title:: cyber-prophet extra 1: installing mac from 0
 		- `font:`
 	- line 159
 		- `size: 18.0`
+	- find in terminal the path to nu: `which nu`
 	- line 436 - To make nushell default shell for Alacritty
 		- ```
 		  shell:
