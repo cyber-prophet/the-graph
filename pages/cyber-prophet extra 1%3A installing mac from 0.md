@@ -101,7 +101,7 @@ title:: cyber-prophet extra 1: installing mac from 0
 		- append this lines to the end
 			- ```
 			  mkdir ~/.cache/starship
-			  starship init nu | sed "s/size -c/size/" | save ~/.cache/starship/init.nu`
+			  starship init nu | sed "s/size -c/size/" | save ~/.cache/starship/init.nu` --force
 			  ```
 	- config nu
 		- append this line to the end:
