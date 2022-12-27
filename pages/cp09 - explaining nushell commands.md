@@ -1,0 +1,5 @@
+- Go to directory:
+	- `~/.pussy/`
+- Edit `client.toml` config file
+	- `node = "https://rpc.space-pussy.cybernode.ai:443"`
+	- `output = "json"`
