@@ -106,6 +106,9 @@ title:: cyber-prophet extra 1: installing mac from 0
 	- config nu
 		- append this line to the end:
 			- `source ~/.cache/starship/init.nu`
+	- config starship:
+		- `code ~/.config/starship.toml`
+			- `continuation_prompt = ""`
 - Install NERD font for Starship
 	- `brew tap homebrew/cask-fonts`
 	- `brew install --cask font-jetbrains-mono-nerd-font`
