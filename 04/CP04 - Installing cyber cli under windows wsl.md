@@ -2,7 +2,7 @@
 	- ### In Power Shell of Windows:
 		- ```
 		  wsl --install
-		  wsl --set-default-version 1
+		  wsl --set-default-version 1 # Probably not necessary for computers with Intel processor
 		  wsl --install -d Ubuntu
 		  ```
 	- ### In console of Ubuntu:
